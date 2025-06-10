@@ -58,5 +58,17 @@
 
   <p style="text-align: center;"><em>"HTML is like duct tape — not always elegant, but it holds the web together."</em></p>
 
+  <!-- ✅ JavaScript Demo Section -->
+  <p id="demo" style="text-align: center;">Click the button to say hello!</p>
+  <div style="text-align: center;">
+    <button onclick="sayHello()">Click Me</button>
+  </div>
+
+  <script>
+    function sayHello() {
+      document.getElementById("demo").innerHTML = "Hello, Ray! JavaScript is working!";
+    }
+  </script>
 </body>
 </html>
+   
